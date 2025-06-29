@@ -1,0 +1,51 @@
+- .env
+- .env.sample
+- .gitignore
+- .nvmrc
+- components.json
+- eslint.config.mjs
+- next-env.d.ts
+- next.config.ts
+- package-lock.json
+- package.json
+- postcss.config.mjs
+- README.md
+- script.md
+- src
+  - app
+    - (auth)
+      - sign-in
+        - page.tsx
+      - sign-up
+        - page.tsx
+    - api
+      - auth
+        - [...nextauth]
+          - route.ts
+    - globals.css
+    - layout.tsx
+    - page.tsx
+  - components
+    - github-sign-in.tsx
+    - sign-out.tsx
+    - ui
+      - button.tsx
+      - github.tsx
+      - input.tsx
+  - lib
+    - actions.ts
+    - auth.ts
+    - db
+      - data
+        - dev.db
+      - db.ts
+      - migrations
+        - 20250628133323_test_auth
+          - migration.sql
+        - migration_lock.toml
+      - schema.prisma
+    - executeAction.ts
+    - schema.ts
+    - utils.ts
+- tailwind.config.ts
+- tsconfig.json
